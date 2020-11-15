@@ -1,0 +1,21 @@
+{
+  "name": "crud_rest_api",
+  "version": "1.0.0",
+  "description": "A basic CRUD REST API build using Node, expressJS",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.14",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Athul M V",
+  "license": "ISC"
+}
